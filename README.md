@@ -1,8 +1,5 @@
 # Proteomics-Based Clustering for Endotype Discovery in Chronic Kidney Disease
 
-**Alex Melendez, Chiao Yuen Lim, Joy Cheung, Parivrudh Sharma, Nicole Lim**  
-Imperial College London, MSc Health Data Analytics and Machine Learning (2024–2025)
-
 ## Motivation
 
 Chronic kidney disease (CKD) is a growing global health crisis, affecting more than 850 million individuals worldwide and ranking among the few non-communicable diseases whose mortality burden has risen steadily over the past three decades. Reliance on traditional markers such as estimated glomerular filtration rate and albuminuria provides limited insight into the complex molecular processes— inflammation, fibrosis, oxidative stress—that drive disease progression. A biologically grounded classification could enable earlier identification of high-risk patients, more precise risk stratification, and the development of targeted therapies.
