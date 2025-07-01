@@ -27,7 +27,7 @@ After quality control and standardisation, we applied UMAP with a cosine distanc
 ## Results
 Three distinct proteomic endotypes—designated Blue, Green and Orange—were identified, each exhibiting unique molecular signatures, pathway enrichments and clinical prognoses.
 
-### Table 2. Differentially expressed genes and enriched pathways by cluster  
+### Table 1. Differentially expressed genes and enriched pathways by cluster  
 Upregulated gene sets are indicated by ▲; downregulated sets by ▼.
 
 <table>
