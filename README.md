@@ -18,7 +18,7 @@ Proteomic processing comprised:
 3. Imputation of left-censored values by QRILC.  
 4. Standardisation to zero mean and unit variance.
 
-Clinical and demographic covariates, comorbidities (Hospital Episode Statistics ICD-10 codes), laboratory measurements and outcomes (end-stage renal disease, mortality) were obtained from baseline assessments, Hospital Episode Statistics and national death registries with follow-up through late 2022 [5][6][7][8][9][10].
+Clinical and demographic covariates, comorbidities (Hospital Episode Statistics ICD-10 codes), laboratory measurements and outcomes (end-stage renal disease, mortality) were obtained from baseline assessments, Hospital Episode Statistics and national death registries with follow-up through late 2022.
 
 ## Methods
 
@@ -77,10 +77,22 @@ Upregulated gene sets are indicated by ▲; downregulated sets by ▼.
 - The Green endotype was characterised by Rho-GTPase signalling pathways implicated in cytoskeletal maintenance.
 - The Blue endotype displayed downregulation of TP53 and SCF–KIT pathways associated with fibrosis and cellular repair.
 
-
 ## Key Findings
 
 A high-risk “orange” endotype exhibited a hazard ratio of 2.78 for ESRD (p 1.2 × 10⁻⁵) and 2.01 for mortality (p 1.4 × 10⁻¹³), with upregulated TNF-mediated inflammatory pathways. A moderate-risk “green” endotype was defined by Rho-GTPase signalling pathways linked to cytoskeletal maintenance. The lower-risk “blue” endotype showed downregulation of TP53 and SCF–KIT pathways. These molecular subgroups map to distinct clinical phenotypes and prognoses, demonstrating that proteomic endotyping can stratify CKD patients more precisely than conventional staging.
+
+
+## References
+1. Kovesdy CP. Epidemiology of chronic kidney disease: an update 2022. *Kidney International Supplements*. 2022;12:7–11.  
+2. Naghavi M, Ong KL, Aali A, Ababneh HS, Abate YH, Abbafati C. Global burden of 288 causes of death and life expectancy decomposition in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021. *The Lancet*. 2024;403:2100–32.  
+3. Ekart R, Ferjuc A, Furman B, Gerjevič Š, Hojs SB. Chronic Kidney Disease Progression to End Stage Renal Disease: A Single Center Experience of the Role of the Underlying Kidney Disease. *Therapeutic Apheresis and Dialysis*. 2013;17:363–7.  
+4. Webster AC, Nagler EV, Morton RL, Masson P. Chronic Kidney Disease. *The Lancet*. 2017;389:1238–52.  
+5. Delrue C, Speeckaert MM. Decoding Kidney Pathophysiology: Omics-Driven Approaches in Precision Medicine. *Journal of Personalized Medicine*. 2024;14:1157.  
+6. Chen TK, Surapaneni AL, Schmidt IM, Waikar SS, Coresh J, Liu H, et al. Proteomics and Incident Kidney Failure in Individuals With CKD: The African American Study of Kidney Disease and Hypertension and the Boston Kidney Biopsy Cohort. *Kidney Medicine*. 2024;6:100921.  
+7. Dubin RF, Deo R, Ren Y, Wang J, Zheng Z, Shou H, et al. Proteomics of CKD progression in the chronic renal insufficiency cohort. *Nature Communications*. 2023;14:6340.  
+8. Govender MA, Brandenburg JT, Fabian J, Ramsay M. The Use of ‘Omics for Diagnosing and Predicting Progression of Chronic Kidney Disease: A Scoping Review. *Frontiers in Genetics*. 2021;12:12. 
+9. Rroji M, Spasovski G. Omics Studies in CKD: Diagnostic Opportunities and Therapeutic Potential. *PROTEOMICS*. 2024;11.  
+10. Ling XC, Kuo KL. Oxidative stress in chronic kidney disease. *Renal Replacement Therapy*. 2018;4:53.  
 
 ## Usage
 
@@ -91,4 +103,6 @@ To reproduce the analysis, clone this repository and install dependencies via th
 All Python and R dependencies are specified in `config/env.yml`. This includes `numpy`, `pandas`, `scikit-learn`, `umap-learn`, `lifelines`, `matplotlib`, `seaborn`, `limma`, `clusterProfiler` and `ReactomePA`. Create and activate the environment with  
 ```bash
 conda env create -f config/env.yml  
-conda activate ckd-proteomics  
+conda activate ckd-proteomics
+
+
