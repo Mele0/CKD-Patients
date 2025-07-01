@@ -1,5 +1,4 @@
 # OLINK data dictionaries
-
 rm(list=ls())
 
 args <- commandArgs(trailingOnly = TRUE)
